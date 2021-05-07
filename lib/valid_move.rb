@@ -2,8 +2,6 @@
 def valid_move?(board, index)
   if position_taken?(board, index)
     return false
-  elsif index.i > board || index.i < board
-    return false
   else
     return true
   end
